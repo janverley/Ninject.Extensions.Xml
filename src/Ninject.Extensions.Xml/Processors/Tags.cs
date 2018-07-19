@@ -50,5 +50,10 @@ namespace Ninject.Extensions.Xml.Processors
         /// Defines that the binding can have a name.
         /// </summary>
         public const string HasName = "HasName";
+
+        /// <summary>
+        /// Defines that the binding can have Constructor Arguments.
+        /// </summary>
+        public const string HasConstructorArgument = "ConstructorArgument";
     }
 }

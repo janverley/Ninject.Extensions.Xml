@@ -49,6 +49,7 @@ namespace Ninject.Extensions.Xml
             this.Kernel.Components.Add<IXmlAttributeProcessor, NameXmlAttributeProcessor>();
             this.Kernel.Components.Add<IXmlAttributeProcessor, ScopeXmlAttributeProcessor>();
             this.Kernel.Components.Add<IXmlElementProcessor, MetadataXmlElementProcessor>();
+            this.Kernel.Components.Add<IXmlElementProcessor, ConstructorArgumentXmlElementProcessor>();
 
             this.Kernel.Components.Add<IScopeHandler, SingletonScopeHandler>();
             this.Kernel.Components.Add<IScopeHandler, ThreadScopeHandler>();
